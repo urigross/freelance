@@ -1,0 +1,316 @@
+.app-header {
+    width: 100%;
+    border-bottom: 1px solid #e4e5e7;
+    .nav-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 5rem;
+        width: $main-layout;
+        padding: 0 2rem;
+        margin: auto;
+        font-weight: 900;
+        color: $fnc;
+        .hamburger-menu {
+            display: none;
+            div {
+                width: 3rem;
+                height: 0.3rem;
+                margin: 0.5rem;
+                border-radius: 5px;
+                background-color: $ftc;
+            }
+        }
+        .logo>a {
+            bottom: 0.35rem;
+            text-decoration: none;
+            color: inherit;
+            font-size: 2rem;
+            // font-weight: 900;
+            span {
+                color: $fgc;
+                font-size: 2rem;
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            }
+        }
+        .navigation {
+            display: flex;
+            align-items: center;
+            position: relative;
+            background-color: inherit;
+            .nav-home-explore>a {
+                text-decoration: none;
+                padding-inline-start: 1.5rem;
+                font-weight: 600;
+                &:first-child {
+                    padding-inline-start: 0;
+                }
+            }
+            >a {
+                text-decoration: none;
+                padding-inline-start: 1.5rem;
+                font-weight: 600;
+            }
+            >span {
+                text-decoration: none;
+                padding-inline-start: 1.5rem;
+                color: white;
+                font-weight: 600;
+                &:hover {
+                    color: $fgc;
+                    cursor: pointer;
+                }
+            }
+            button {
+                background-color: inherit;
+                border: none;
+                padding-inline-start: 1.5rem;
+                font-weight: 600;
+                font-size: 1rem;
+                &:hover {
+                    cursor: pointer;
+                    color: $fgc;
+                    transition: 0.35s ease;
+                }
+                .header-join {
+                    border: 1.5px solid $fgc;
+                    border-radius: 5px;
+                    &:hover {
+                        color: $white;
+                        background-color: #02a75a;
+                    }
+                }
+            }
+        }
+        .user-control {
+            a {
+                text-decoration: none;
+                padding-inline-start: 1.5rem;
+                color: inherit;
+                font-weight: 600;
+                transition: 0.35s ease;
+                display: inline;
+            }
+        }
+        .avatar {
+            height: 40px;
+            border-radius: 50%;
+            width: 40px;
+            background-color: transparent;
+            margin-left: 24px
+        }
+        .avatar-menu {
+            span {
+                text-decoration: none;
+                padding-inline-start: 1.5rem;
+                color: $ftc;
+                font-weight: 600;
+                transition: 0.35s ease;
+                &:hover {
+                    color: $fgc;
+                    cursor: pointer;
+                }
+            }
+            a {
+                text-decoration: none;
+                padding-inline-start: 1.5rem;
+                color: $ftc;
+                font-weight: 600;
+                transition: 0.35s ease;
+                &:hover {
+                    color: $fgc;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+    .app-header-search2 {
+        display: none;
+    }
+}
+
+@media (max-width: 3400px) {
+    .app-header {
+        .nav-header {
+            width: auto;
+            // padding: 0 2rem;
+        }
+    }
+    .header-join{
+        padding: 0.25rem 1.5rem;
+    }
+    
+}
+
+@media (max-width: 850px) {
+    .navigation {
+        >.header-nav-a {
+            display: none;
+        }
+    }
+    .app-header {
+        .nav-header {
+            padding: 0 0.5rem !important;
+            .avatar {
+                display: none;
+            }
+            .hamburger-menu {
+                display: block;
+            }
+            width: auto;
+            padding: 0 2rem;
+            .nav-home-explore {
+                // width: 100rem;
+                display: none;
+            }
+        }
+        .app-header-search2 {
+            display: flex;
+            padding: 0 0.5rem;
+        }
+    }
+    .app-header-search1 {
+        display: none;
+    }
+    .avatar {
+        height: 40px;
+        border-radius: 50%;
+        width: 40px;
+        background-color: transparent;
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 500px) {
+    .app-header {
+        .nav-header {
+            .hamburger-menu {
+                display: block;
+                div {}
+            }
+        }
+    }
+}
+
+@media (max-width: 420px){
+    .header-signin{
+        display: none;
+    }
+    .nav-header{
+        overflow-x: hidden;
+    }
+    .header-join{
+        padding: 0.25rem 1rem;
+    }
+
+    .app-header .nav-header .navigation button{
+        padding-left: 0.6em ;
+    }
+}
+
+.side-menu {
+    width: 100%;
+    display: flex;
+    transform: translateX(-100%);
+    position: absolute;
+    z-index: 25;
+    transition: 0.2s;
+    .side-menu-nav {
+        height: 100rem;
+        background-color: white !important;
+        padding-top: 1.5rem;
+        padding-left: 2rem;
+        padding-bottom: 1rem;
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        >a {
+            background-color: white !important;
+            text-decoration: none;
+            color: $ftc;
+            font-weight: 900;
+            padding-top: 1rem;
+        }
+    }
+    >div {
+        height: 100rem;
+        width: calc(100% - 300px);
+        background-color: rgba(68, 68, 68, 0.514);
+    }
+}
+
+.header-signin {
+    color: $ftc;
+}
+
+.header-join {
+    color: $ftc;
+}
+
+.user-control {
+    color: inherit;
+}
+
+// Class addtions nav-button ( 
+.header-nav-a {
+    color: $ftc;
+    &:hover {
+        color: $fgc;
+    }
+}
+
+.home-page-header1,
+.home-page-header2,
+.home-page-header3,
+.home-page-header4,
+.home-page-header5 {
+    border-bottom: none;
+}
+
+.home-page-header1 {
+    background-color: #494949;
+    color: white;
+    border: white;
+    // border:#093d10
+}
+
+.home-page-header2 {
+    background-Color: #093d10;
+    color: white;
+    border: white;
+}
+
+.home-page-header3 {
+    background-Color: #a57563;
+    border: white;
+    color: white;
+}
+
+.home-page-header4 {
+    background-Color: black;
+    color: white;
+    border: white;
+}
+
+.home-page-header5 {
+    background-Color: #86535c;
+    color: white;
+    border: white;
+}
+// fiverr background search homepage mobile color
+.home-page-header900 {
+    background-Color: $fmc; 
+    color: white;
+    border: white;
+}
+.home-page-header600 {
+    background-color: #fff;
+    color: $ftc;
+
+}
+
+@media (max-width:400px){
+    .logo{
+        padding-inline-start: 0.8em;
+    }
+}

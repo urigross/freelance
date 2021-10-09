@@ -1,0 +1,14 @@
+@mixin btnWhiteTrans ($c:$white, $bc:$white) {
+    background-color: transparent;
+    line-height: 24px;
+    font-weight: 600;
+    color: $c;
+    padding: 1px 12px 0;
+    border: 1px solid $bc;
+    border-radius: 40px;
+    // -webkit-transition: all .2s ease-in-out;
+    // -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    transition: 0.35s ease;
+    //width: 65px;
+}

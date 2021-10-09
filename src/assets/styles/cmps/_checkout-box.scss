@@ -1,0 +1,48 @@
+.checkout-box {
+    box-sizing: border-box;
+    width: 18.8rem;
+    position: relative;
+    top: 3.5rem;
+    padding: 1.25rem;
+    border: 1.5px solid $fbc;
+    text-align: center;
+    h4 {
+        padding-bottom: 0.625rem;
+    }
+    > div {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 0.625rem;
+        padding-bottom: 0.625rem;
+    }
+    .cb-total-price{
+        padding-top: 1.25rem;
+        margin-top: 0.625rem;
+        border-top: 1.5px solid $fbc;
+    }
+    a {
+        button {
+            margin-top: 0.625rem;
+            color: white;
+            border: none;
+            height: 3rem;
+            font-size: 1.2rem;
+            border-radius: 5px;
+            width: 100%;
+            background-color: $fgc;
+        }
+    }
+    .small {
+        padding-top: 0.625rem;
+        margin: 0;
+    }
+}
+
+@media (max-width: 850px) {
+    .checkout-box {
+        width: 100%;
+        // padding:0px 0px 0px;
+        margin:0px 0.5rem
+        
+    }
+}

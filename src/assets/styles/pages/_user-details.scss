@@ -1,0 +1,82 @@
+.profile-pic {
+    width: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 10px;
+}
+
+.avatar {
+
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.user-details {
+    height: 90vh;
+    width: 100%;
+    color: $ftc;
+    h1 {
+        color: black
+    }
+    h2 {
+        color: black
+    }
+    .user-details-container {
+        border: 2px solid $fbc;
+        margin: auto;
+        margin-top: 30px;
+        max-width: 700px;
+        text-align: center;
+        .loader {
+            height: 150px;
+            width: auto;
+        }
+        label img {
+            height: 100px;
+            cursor: pointer;
+            transition: height 0.6s;
+        }
+        input {
+            width: 0;
+            height: 0;
+            color: $ftc
+        }
+        .drag {
+            color: grey;
+            display: inline-block;
+            padding: 30px 5px;
+            width: 220px;
+            border: 1px dashed gray;
+            border-radius: 8px;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border: solid 1px $fbc;
+            input {
+                padding: 8px 12px;
+                border-radius: 4px;
+                border: 1px solid #c5c6c9;
+                width: 90%;
+                font-size: 1.2em;
+                height: 30px;
+            }
+            button {
+                margin-top: 20px;
+                width: 50%;
+                padding: 8px 12px;
+                background-color: $fgc;
+                color: white;
+                font-size: 1.2em;
+                border: none;
+                border-radius: 0.2em;
+                margin-bottom: 10px;
+            }
+            button:hover {
+                background-color: #19b16a;
+                cursor: pointer;
+            }
+        }
+    }
+}

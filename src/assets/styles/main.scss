@@ -1,0 +1,36 @@
+// setup
+@import './setup/_variables';
+@import './setup//mixins';
+//basics
+@import './basics/base';
+@import './basics/layout';
+@import './basics/buttons';
+// setup
+@import './setup/variables';
+@import './setup/mixins';
+//pages
+@import './pages/explore';
+@import './pages/home-page';
+@import './pages/user-details';
+@import './pages/gig-details';
+@import './pages/become-seller';
+@import './pages/checkout';
+@import './pages/back-office';
+//components
+@import './cmps/app-header';
+@import './cmps/log-in-modal';
+@import './cmps//signup-modal';
+@import './cmps/hp-search-bar';
+@import './cmps/hp-tag-buttons';
+@import './cmps/app-header-search';
+@import './cmps/gig-buying-box';
+@import './cmps/hp-category-list';
+@import './cmps/gig-preview';
+@import './cmps/hp-category-preview';
+@import './cmps/hp-hero-image-preview';
+@import './cmps/gig-reviews';
+@import './cmps/user-menu';
+@import './cmps/checkout-box';
+@import './cmps/order-table';
+@import './cmps/create-gig';
+@import './cmps/user-msg';

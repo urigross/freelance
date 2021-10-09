@@ -1,0 +1,108 @@
+
+
+.gigs-list {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(245px, 1fr));
+    // grid-template-columns: repeat(4, calc(25% - 2rem));
+    grid-gap: 2rem;
+    margin-bottom: 1rem;
+}
+@media (max-width: 1100px) {
+    .gigs-list {
+        grid-template-columns: repeat(3, minmax(245px, 1fr));
+    }
+}
+@media (max-width: 850px) {
+    .gigs-list {
+        grid-template-columns: repeat(2, minmax(200px, 1fr));
+    }
+}
+@media (max-width: 500px) {
+    .gigs-list {
+        grid-template-columns: repeat(1, minmax(245px, 1fr));
+    }
+}
+
+.gigs-list-user {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+    margin-bottom: 1rem;
+    // border-top: 2px solid $fbc;
+    padding-top: 10px;
+    margin-top: 20px;
+
+    .seller-preview{
+        margin: 0px 0px 0px;
+        .gig-actions{
+            margin-bottom: 10px;
+        }
+        p{padding: 0px 5px 0px;
+           margin: auto;
+            // text-align: center;
+        }
+        
+    }
+}
+
+.gigs-list-hp {
+    grid-template-columns: repeat(5, 1fr);
+    overflow: hidden;
+    
+}
+
+@media (max-width: 1240px) {
+    .gigs-list-hp {
+        grid-template-columns: auto auto auto auto;
+    }
+}
+
+@media (max-width: 1060px) {
+    .gigs-list-hp {
+        grid-template-columns: auto auto auto;
+        justify-items: end;
+    }
+}
+
+@media (max-width: 900px) {
+    .gigs-list-hp {
+        grid-template-columns: auto auto auto;
+    }
+}
+
+@media(max-width:850px) {
+    .user-gigs {
+        width: 100%;
+        .gigs-container {
+            width: 100%;
+            .gigs-list-user {
+                width: 100%;
+                display: flex;
+                justify-content: flex-start;
+                .seller-preview {
+                    width: 100%;
+                    
+                    
+                    
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 800px) {
+    .gigs-list-hp {
+        grid-template-columns: auto auto;
+    }
+}
+
+
+
+
+@media (max-width: 600px) {
+    .gigs-list-hp {
+        grid-template-columns: auto;
+        overflow: initial;
+    }
+}
+

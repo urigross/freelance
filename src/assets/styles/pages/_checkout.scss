@@ -1,0 +1,78 @@
+.checkout-page{
+    overflow-x: hidden;
+    width: 1240px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    .package-container{
+        width: 51.666rem;
+        padding: 0.75rem;
+        border-bottom: 1.5px solid $fbc;
+        h2 {
+            padding-top: 0.3125rem;
+            padding-bottom: 2.5rem;
+            font-size: 1.75rem;
+        }
+        .package-gig-details{
+            display: flex;
+            justify-content: space-between;
+            padding-inline-end: 1.15rem;
+            padding-bottom: 1.875rem;
+            margin-bottom: 1rem;
+            .package-info-container{
+                display: flex;
+            }
+            h3 {
+                width: max-content;
+                padding-bottom: 0.3125rem;
+                position: relative;
+                bottom: 0.35rem;
+            }
+            .el-rate {
+                padding-top: 0.3125rem;
+            }
+            div.more-package-info > button {
+                padding-top: 0.5rem;
+                position: relative;
+                top: 0.5rem;
+                background-color: transparent;
+                border: none;
+                color: $fgc;
+            }
+        }
+    }
+        .img-container {
+            margin-right: 0.75rem;
+            width: 150px;
+            height: 92.6167px;
+            img {
+                object-fit: cover;
+            }
+        }
+}
+@media (max-width: 850px){
+    .checkout-page{
+        width: 100%;
+        flex-direction: column;
+        .package-container{
+            width: 100%;
+            h2 {
+                width: max-content;
+            }
+            .package-gig-details{
+                .package-info-container{
+                        width: 410px;
+                    }
+                    h3 {
+                        width: 10rem;
+                    }
+                    .el-rate {
+                        width: max-content;
+                    }
+                    .package-gig-price {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }

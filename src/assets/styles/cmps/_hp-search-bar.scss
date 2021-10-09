@@ -1,0 +1,90 @@
+.hp-search-bar {
+    position: relative;
+    & input:focus {
+        outline: none;
+    }
+    & button:hover {
+        background-color: #1cb36c;
+    }
+}
+
+.hp-search-bar input {
+    border: transparent;
+    height: 48px;
+    font-size: 16px;
+    padding-left: 44px;
+    margin-bottom: 0;
+    border-radius: 4px 0 0 4px;
+    width: 546px;
+    font-size: 16px;
+}
+
+.hp-search-bar svg {
+    opacity: 0.5;
+    color: blue;
+    position: absolute;
+    top: 35%;
+    left: 3%;
+}
+
+@media (max-width: 1160px) {
+    .hp-search-bar input {
+        width: 405px;
+    }
+    .hp-search-bar svg {
+        left: 3.5%;
+    }
+}
+
+.hp-search-bar button {
+    border: transparent;
+    transition: .15s ease-in-out;
+    margin: 0;
+    border-radius: 0 4px 4px 0;
+    background-color: $fgc;
+    color: $white;
+    font-weight: 700;
+    font-size: 16px;
+    width: 103px;
+    height: 48px;
+    padding-block-start: 1px;
+}
+
+@media (max-width: 900px) {
+    .home-page-search-bar {
+        width: 100%;
+        min-width: 327px;
+        max-width:none;
+    }
+    .hp-search-bar {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .hp-search-bar button {
+        width: 100%;
+        margin-bottom: 95px;
+        border-radius: 4px;
+    }
+    .hp-search-bar input {
+        margin-bottom: 13px;
+        min-width: 60vw;
+        border-radius: 4px;
+        width: 100%;
+    }
+    .hp-search-bar svg {
+        position: absolute;
+        left: 0;
+        margin-left: 16px;
+        top: 8%;
+    }
+}
+
+@media (max-width:400px){
+    .hp-search-bar{
+        input{
+        }
+        
+    }
+    
+}

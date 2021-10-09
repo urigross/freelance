@@ -1,0 +1,72 @@
+[
+    {
+        "_id": "u101",
+        "fullname": "Yori Yorovich",
+        "profileImg": "../src/assets/images/users/yori.jpg",
+        "username": "yoriri",
+        "password": "123",
+        "memberSince": 1626633586722,
+        "savedGigs": [],
+        "savedSellers": [],
+        "isAdmin": false,
+        "seller": {
+            "specialty": "website development",
+            "sellerInfo": "Hello there! I’m Yori Yorovich and I'm a professional video editor and cinematic video creator. I have 5 years' experience in After Effects and I'm very passionate about my work. I believe in providing Professional work as soon as possible.  Please check my service and Feel Free To Contact Me anytime.........",
+            "location": "United States",
+            "socialLinks": {
+                "facebook": "https://www.facebook.com/yori.yorovich"
+            },
+            "reviewsId": [
+                "r101",
+                "r102",
+                "r103",
+                "r104",
+                "r105",
+                "r106"
+            ],
+            "gigsId": [
+                "g101",
+                "g102",
+                "g103"
+            ],
+            "ordersId": [
+                "o101"
+            ]
+        }
+    },
+    {
+        "_id": "u102",
+        "fullname": "Tamar Tamarovich",
+        "imgUrl": "../src/assets/images/users/tamar.jpg",
+        "username": "tamariri",
+        "password": "123",
+        "Member since": 1626633586722,
+        "savedGigs": [],
+        "savedSellers": [],
+        "isAdmin": false,
+        "seller": {
+            "specialty": "graphic design",
+            "SellerInfo": "Hi, Meet me... Mehshan Here! Working in the field of Graphic designing for more than 5 years. A good observer and thinker who always try to be creative in producing unique ideas. I have a strong believe in producing High Quality Work instead of More Quantity.",
+            "location": "Israel",
+            "socialLinks": {
+                "facebook": "https://www.facebook.com/yori.yorovich"
+            },
+            "reviewsId": [
+                "r107",
+                "r108",
+                "r109",
+                "r110",
+                "r111",
+                "r112"
+            ],
+            "gigsId": [
+                "g104",
+                "g105",
+                "g106"
+            ],
+            "ordersId": [
+                "o102"
+            ]
+        }
+    }
+]

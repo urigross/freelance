@@ -1,0 +1,170 @@
+.add-gig {
+    background-color: rgba(0, 0, 0, 0.65);
+    width: 100%;
+    height: 1000px;
+    position: fixed;
+    z-index: 100;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    main {
+        color: #626466;
+        min-width: 1100px;
+        max-width: 1400px;
+        // height: 800px;
+        background-color: white;
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        z-index: 2;
+        border-radius: 4px;
+
+        form {
+            display: flex;
+            flex-direction: column;
+            .gig-input {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                border-top: 2px solid $fbc;
+                .el-input {
+                    width: 75%;
+                    margin-right: 70px;
+                }
+                .el-textarea {
+                    width: 75%;
+                    margin-right: 70px;
+                }
+
+                .el-select {
+                    width: 100%;
+                    margin-right: -203px;
+                }
+                p {
+                    text-align: start;
+                    margin-left: 10px;
+                    margin-right: 20px;
+                }
+            }
+            .gig-input-numbers {
+                display: flex;
+
+                .gig-input {
+                    width: 50%;
+                }
+            }
+
+            .upload-call {
+                width: 50%;
+                margin: auto;
+
+                p {
+                    font-size: 3rem;
+                }
+                p:hover {
+                    font-size: 3rem;
+                }
+            }
+            img {
+                width: 100px;
+                height: 100px;
+                margin-right: 30px;
+                object-fit: cover;
+            }
+
+            .loader {
+                width: 200px;
+                height: 200px;
+            }
+            .upload-call:hover {
+                color: $fgc;
+                cursor: pointer;
+            }
+            button {
+                width: 160px;
+                margin: auto;
+                margin-top: 20px;
+                margin-bottom:30px;
+                border: none;
+                background-color: $fgc;
+                color: white;
+                font-size: 2rem;
+                border-radius: 0.1em;
+            }
+
+            button:hover {
+                background-color: #1baa67;
+            }
+        }
+    }
+}
+.hidden {
+    display: none;
+}
+
+@media (max-width: 1100px) {
+    .add-gig {
+        main {
+            max-width: 850px;
+            min-width: 0px;
+        }
+    }
+}
+
+@media (max-width: 850px) {
+    .add-gig {
+        main {
+
+            font-size:0.8rem;
+            top: 0px;
+            form {
+                .gig-input {
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+                    margin-bottom: 10px;
+
+                    .el-input {
+                        width: 75%;
+                        margin: auto;
+                        
+
+                    }
+                    .el-textarea {
+                        width: 75%;
+                        margin: auto;
+                        
+                    }
+
+                    .el-select {
+                        width: 100%;
+                        
+
+                        margin-right: 0px;
+                    }
+
+              
+                }
+
+                img {
+                    width: 80px;
+                    height: 80px;
+                   
+                }
+    
+                .loader {
+                    width: 160px;
+                    height: 160px;
+                }
+                
+                button
+                {margin-top: 0px;} 
+            }
+            .img-upload-list{
+                display: none;
+            }
+        }
+    }
+}

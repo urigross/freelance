@@ -1,0 +1,195 @@
+.edit-seller {
+  p {
+    margin: auto 0px auto;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 300px;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: $ftc;
+  }
+  text-align: center;
+  background-color: rgba(250, 250, 250, 0.911);
+  border: 2px solid $fbc;
+  border-top: none;
+  width: $main-layout;
+  padding: 0px 16px 0px;
+
+  margin: auto;
+
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  .seller-details {
+    margin-top: 20px;
+    height: fit-content;
+
+    img {
+      height: 100px;
+    }
+    // height: 534px;
+    grid-area: 0/0/1/1;
+    border: 2px solid $fbc;
+    // min-height: 520px;
+    // height: 500px;
+    // max-height: 600px;
+    //  max-width: 500px;
+    // padding-right:30px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    h3 {
+      margin-top: 15px;
+    }
+    form {
+      .form-content {
+        padding: 0px 10px 0px;
+      }
+      .form-option {
+        margin-top: 25px;
+        padding-top: 25px;
+        // padding:25px 10px 25px;
+        display: flex;
+
+        h3 {
+          margin-top: 0px;
+          width: 100px;
+          margin-left: 10px;
+          text-align: left;
+        }
+        // justify-content: space-between;
+
+        border-top: 1px solid $fbc;
+        select {
+          border: 1px solid $fbc;
+          width: 50%;
+          margin-left: 10px;
+          margin-right: 10px;
+
+          border: 2px solid $fbc;
+          color: $ftc;
+          font-family: Nunito_Sans_regular;
+          transition: 0.2s ease;
+        }
+
+        select:focus {
+          outline-color: rgb(97, 190, 251);
+          outline-style: 1px solid rgb(97, 190, 251);
+        }
+        .el-textarea {
+          width: 70%;
+          margin-left: 10px;
+          margin-right: 10px;
+          font-family: Nunito_Sans_regular;
+        }
+        input {
+          width: 70%;
+          margin-left: 10px;
+          margin-right: 10px;
+          border: 2px solid $fbc;
+          color: $ftc;
+          font-family: Nunito_Sans_regular;
+          transition: 0.2s ease;
+        }
+        input:focus {
+          outline-color: rgb(97, 190, 251);
+          outline-style: 1px solid rgb(97, 190, 251);
+        }
+      }
+
+      button {
+        margin-top: 25px;
+        margin-bottom: 25px;
+        border: none;
+        background-color: $fgc;
+        color: white;
+        font-size: 1.8rem;
+        border-radius: 0.1em;
+        padding: 6px 15px 6px;
+      }
+      button:hover {
+        background-color: #1baa67;
+      }
+    }
+  }
+  .form-option:last-child {
+    margin-bottom: 20px;
+  }
+
+  .user-gigs {
+    // grid-area: 0/1/1/2;
+
+    max-width: 850px;
+    height: fit-content;
+    margin-top: 20px;
+    // padding:0px 10px 0px;
+    h2 {
+      background-color: white;
+      border: 2px solid $fbc;
+      padding: 10px 0px 10px;
+    }
+  }
+
+  .table-container {
+    // grid-area:1/1/2/2 ;
+  }
+
+  .hidden {
+    display: none !important;
+  }
+}
+
+@media (max-width: 1400px) {
+  .edit-seller {
+    max-width: 1100px;
+
+    // justify-content:start;
+  }
+  .table-container {
+    margin: auto;
+  }
+}
+
+@media (max-width: 1100px) {
+  .edit-seller {
+    max-width: 850px;
+    margin: auto;
+    justify-content: center;
+    padding: 0px 0px 0px;
+
+    .seller-details {
+      margin-bottom: 30px;
+      border-top: none;
+      margin-top: 0px;
+    }
+  }
+}
+
+@media (max-width: 850px) {
+  .edit-seller {
+    max-width: 100%;
+margin: 0px 0px 0px;
+
+    .seller-details {
+      width: 100%;
+      margin-top: 0px;
+      border: none;
+    }
+
+    .user-gigs {
+      .gigs-container {
+        h2 {
+          border-right: none;
+          border-left:none;
+        }
+
+        .gigs-list-user {
+          width: 100%;
+          display: grid;
+          grid-template-columns: repeat(1, 1fr);
+        }
+      }
+    }
+  }
+}

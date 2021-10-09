@@ -1,0 +1,18 @@
+.alert {
+    z-index: 150;
+    background-color: $white;
+    width: 300px;
+    height: 100px;
+    color: $ftc;
+    margin: auto;
+    position: absolute;
+    top: 475px;
+    left: 40vh;
+    text-align: center;
+    border: 5px solid $fbc;
+    border-radius: 0.9em;
+    font-family: Nunito_Sans;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 8px 9px 29px -30px rgba(0,0,0,0); 
+    box-shadow: 0px 10px 13px -7px #000000, 8px 9px 29px -30px rgba(0,0,0,0);
+    transition: 0.5s ease;
+}

@@ -1,0 +1,111 @@
+.table-container {
+    margin-top: 40px;
+    overflow-x:auto;
+    h2{
+        margin-bottom: 20px;
+    }
+    .order-table {
+        font-size: 1.3rem;
+        margin: auto;
+        width: 100%;
+        border: 2px solid $fbc;
+        border-collapse: collapse;
+        margin-bottom: 40px;
+        color: $ftc;
+        tr:first-child {
+            color: black;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        tr {
+            margin-bottom: 20px;
+
+            border-bottom: 2px solid $fbc;
+
+            td {
+                padding: 0px 10px 0px;
+                align-content: center;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                border-right: 2px solid $fbc;
+                padding-bottom: 10px;
+                padding-top: 10px;
+                button {
+                    margin-top: 0.7rem;
+                    width: 40px;
+                    height: 1.4rem;
+                    margin-right: 5px;
+                    font-size: 0.8rem;
+                }
+            }
+            td:first-child {
+                text-align: left;
+            }
+            td:last-child {
+                display: flex;
+                flex-direction: column;
+            }
+            td .options {
+                display: flex;
+                // flex-wrap: wrap;
+                justify-content: space-evenly;
+                span {
+                    font-size: 0.85em;
+                }
+                span:last-child {
+                    color: $fgc;
+          
+                    margin-left:10px;
+                } 
+                span:first-child {
+                    color: rgb(250, 57, 57);
+                }
+
+                span:hover {
+                    text-decoration: underline;
+                    cursor: pointer;
+                }
+
+               
+            }
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+    }
+
+}
+
+@media (max-width: 1100px) {
+    .table-container {
+        .order-table {
+     
+
+            tr {
+                font-size: 1.15rem;
+            }
+        }
+    }
+}
+
+
+@media (max-width: 850px) {
+    .table-container {
+        .order-table {
+         tr{
+             td{
+                span:last-child {
+                    color: $fgc;
+                    margin-left:10px
+                } 
+             }
+         }
+          
+
+        }
+    }
+}

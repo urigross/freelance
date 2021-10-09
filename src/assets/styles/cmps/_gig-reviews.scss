@@ -1,0 +1,76 @@
+.gig-review{
+    padding-top: 0.75rem;
+
+    & article {
+        display: flex;
+        padding-bottom: 0.75rem;
+
+        & .user-propile-img {
+            width: 2rem;
+            height: 2rem;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-inline-end: 1rem;
+        }
+
+        & .user-info-and-rate {
+        padding-top: 0.2rem;
+        padding-bottom: 0.2rem;
+        display: flex;
+        align-items: center;
+
+        
+        & p {
+            margin-inline-end: 1rem;
+        }
+        & .el-icon-star-on{
+            // padding:  0 0.75rem;
+            color: #ffbe5b!important;
+            font-size: 1rem;
+            font-weight: 700;
+        }
+        }
+        .review-txt{
+            padding-top: 0.75rem;
+            padding-bottom: 0.75rem;
+        }
+    }
+    .review-container-header{
+        font-weight: 900;
+        padding-bottom: 0.75rem;
+        font-size: 1.5rem;
+    }
+    & .add-review{
+        border: 1.5px solid $fbc;
+        padding: 1.5rem;
+        input {
+            margin-bottom: 0.75rem;
+            display: block;
+            height: 2rem;
+            width: 100%;
+        }
+        textarea{
+            width: 100%;
+            height: 6rem;
+            resize: none;
+            margin-bottom: 0.75rem;
+
+        }
+        .block{
+            display: flex;
+            align-items: center;
+            margin-bottom: 0.75rem;
+        }
+    }
+    button {
+        width: 100%;
+        height: 2rem;
+        background-color: $fgc;
+        border: none;
+        font-size: 1.2rem;
+        color: white;
+        font-weight: 900;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+}

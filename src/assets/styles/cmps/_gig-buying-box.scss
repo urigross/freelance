@@ -1,0 +1,56 @@
+.gig-package {
+    // margin-top: 2rem;
+    border: 1.5px solid $fbc;
+    padding: 2rem;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 165px;
+
+        ul,p{
+            margin: 0;
+        }
+        h4 {
+            display: flex;
+            justify-content: space-between;
+            padding-bottom: 0.75rem;
+            span{
+                &:last-child {
+                    font-size: 1.2rem;
+                }
+            }
+        }
+        h6,p {
+            padding-bottom: 0.75rem;
+        }
+        ul {
+            padding-left: 0;
+            padding-bottom: 0.75rem;
+            li {
+                list-style: none;
+            }
+            .el-icon-check {
+                position: relative;
+                top: 2px;
+                color: $fgc;
+                font-size: 1.1rem;
+                font-weight: 900;
+            }
+        }
+
+        button {
+            width: 100%;
+            height: 3rem;
+            background-color: $fgc;
+            border: none;
+            font-size: 1.5rem;
+            color: white;
+            font-weight: 900;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+}
+@media (max-width: 900px) {
+    .gig-package {
+        padding: 0.5rem;
+    }
+}

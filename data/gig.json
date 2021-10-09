@@ -1,0 +1,239 @@
+[
+    {
+        "_id": "g101",
+        "title": "I will do uv gloss, luxury business card and logo design",
+        "imgUrls": [
+            "../src/assets/images/gigs/design.jpg"
+        ],
+        "price": 100,
+        "deliveryDays": 4,
+        "description": "some description for the logo gigsome description for the logdddddddddo gigsome description for the logo gig",
+        "tags": [
+            "graphic",
+            "website"
+        ],
+        "seller": {
+            "_id": "u101",
+            "fullname": "Yori Yorovich",
+            "imgUrl": "../src/assets/images/users/yori.jpg"
+        },
+        "reviews": [
+            {
+                "id": "r101",
+                "txt": "Pixel_drop was extremely responsive throughout the process. The results were above my expectations and pixel_drop always went above and beyond to make sure I was completely happy with the results.",
+                "rate": 5,
+                "created": 1626597133433,
+                "by": {
+                    "fullname": "puki puki"
+                }
+            },
+            {
+                "id": "r102",
+                "txt": "He did an absolutely fantastic job and went above and beyond. Although I have never printed business cards before I'm confident that he'll answer any questions I have. Thank you very much and if my business kicks off, I'll be sure to recommend your services to any people I meet.",
+                "rate": 5,
+                "created": 1626597147866,
+                "by": {
+                    "fullname": "muki muki"
+                }
+            }
+        ]
+    },
+    {
+        "_id": "g102",
+        "title": "I will do full stack website development",
+        "imgUrls": [
+            "../src/assets/images/gigs/design.jpg"
+        ],
+        "price": 100,
+        "deliveryDays": 3,
+        "description": "I will give you 20 videos of Fullstack courseI will give you 20 videos of Fullstack courseI will give you 20 videos of Fullstack courseI will give you 20 videos of Fullstack course",
+        "tags": [
+            "programming",
+            "website",
+            "internet"
+        ],
+        "seller": {
+            "_id": "u101",
+            "fullname": "Yori Yorovich",
+            "imgUrl": "../src/assets/images/users/yori.jpg"
+        },
+        "reviews": [
+            {
+                "id": "r103",
+                "txt": "This was a tough gig. Puneet had to create multiple assets so an image could be uploaded in a website, posted in AWS S3, URL extracted and posted in MongoDB on mongodb.com and the result displayed in heroku. He dived in, and didn't come up for air till he was done. Finished in hours. What an amazing MERN full-stack kickass developer. Will hire again.",
+                "rate": 5,
+                "created": 1626597147866,
+                "by": {
+                    "fullname": "puki puki"
+                }
+            },
+            {
+                "id": "r104",
+                "txt": "Great person to work with, second order and he did not disappoint. He really knows his stuff.",
+                "rate": 5,
+                "created": 1626597147866,
+                "by": {
+                    "fullname": "puki puki"
+                }
+            }
+        ]
+    },
+    {
+        "_id": "g103",
+        "title": "I will promote your podcast on our high traffic podcast network",
+        "imgUrls": [
+            "../src/assets/images/gigs/design.jpg"
+        ],
+        "price": 100,
+        "deliveryDays": 4,
+        "description": "I will promote your podcast on our high traffic podcast network",
+        "tags": [
+            "sound",
+            "internet"
+        ],
+        "seller": {
+            "_id": "u101",
+            "fullname": "Yori Yorovich",
+            "imgUrl": "../src/assets/images/users/yori.jpg"
+        },
+        "reviews": [
+            {
+                "id": "r105",
+                "txt": "I did not noticed any noticeable change on my stats",
+                "rate": 3,
+                "created": 1626597147866,
+                "by": {
+                    "fullname": "shuki shuki"
+                }
+            },
+            {
+                "id": "r106",
+                "txt": "Unlike a bot service, this is a real person doing some serious leg work to complete your order and get people listening to your podcast. Went far and above what I paid for. Even if I only end up getting a handfull of listeners, it is still totally worth it to hire this guy to help you! A total pro!! Will definitely use again! Stephen podcast: Victims of Fun",
+                "rate": 5,
+                "created": 1626597147866,
+                "by": {
+                    "fullname": "puki puki"
+                }
+            }
+        ]
+    },
+    {
+        "_id": "g104",
+        "title": "I will prepare a professional business plan with financial projections",
+        "imgUrls": [
+            "../src/assets/images/gigs/design.jpg"
+        ],
+        "price": 100,
+        "deliveryDays": 4,
+        "description": "I will prepare a professional business plan with financial projections",
+        "tags": [
+            "business",
+            "business plan"
+        ],
+        "seller": {
+            "_id": "u102",
+            "fullname": "Tamar Tamarovich",
+            "imgUrl": "../src/assets/images/users/tamar.jpg"
+        },
+        "reviews": [
+            {
+                "id": "r107",
+                "txt": "This project did not meet my expectations. He did not follow my instructions and many of the calculations were wrong. I sent a message to the seller to resolve this and all I got was excuses. I would not recommend.",
+                "rate": 2,
+                "created": 1626597147866,
+                "by": {
+                    "fullname": "puki puki"
+                }
+            },
+            {
+                "id": "r108",
+                "txt": "I am amazed at how detailed and professional my business plan is. Steve is a real pro and truly passionate about helping businesses thrive and the business plan he created for me proved it. I will definitely use his services again. I recommend Him",
+                "rate": 4,
+                "created": 1626597147866,
+                "by": {
+                    "fullname": "puki puki"
+                }
+            }
+        ]
+    },
+    {
+        "_id": "g105",
+        "title": "I will create tasty cooking video recipes",
+        "imgUrls": [
+            "../src/assets/images/gigs/design.jpg"
+        ],
+        "price": 100,
+        "deliveryDays": 4,
+        "description": "I will give you 20 vegan video recipes for your blog or social media",
+        "tags": [
+            "lifestyle",
+            "cooking",
+            "vegan"
+        ],
+        "seller": {
+            "_id": "u102",
+            "fullname": "Tamar Tamarovich",
+            "imgUrl": "../src/assets/images/users/tamar.jpg"
+        },
+        "reviews": [
+            {
+                "id": "r109",
+                "txt": "I made a custom order and I'am really satisfied with the work. It was a really fast delivery time and we had a really good communication with each other.",
+                "created": 1626597147866,
+                "rate": 5,
+                "by": {
+                    "fullname": "puki puki"
+                }
+            },
+            {
+                "id": "r110",
+                "txt": "The apples and nuts were a good addition to the video. Thank you very much.",
+                "created": 1626597147866,
+                "rate": 5,
+                "by": {
+                    "fullname": "puki puki"
+                }
+            }
+        ]
+    },
+    {
+        "_id": "g106",
+        "title": "I will writing high quality worth travel and lifestyle content",
+        "imgUrls": [
+            "../src/assets/images/gigs/design.jpg"
+        ],
+        "price": 100,
+        "deliveryDays": 4,
+        "description": "I will help you plan your amazing european vication",
+        "tags": [
+            "vication",
+            "travel",
+            "europe"
+        ],
+        "seller": {
+            "_id": "u102",
+            "fullname": "Tamar Tamarovich",
+            "imgUrl": "../src/assets/images/users/tamar.jpg"
+        },
+        "reviews": [
+            {
+                "id": "r111",
+                "txt": "What a dream viacation",
+                "created": 1626597147866,
+                "rate": 5,
+                "by": {
+                    "fullname": "puki puki"
+                }
+            },
+            {
+                "id": "r112",
+                "txt": "Was perfect to my budget",
+                "created": 1626597147866,
+                "rate": 5,
+                "by": {
+                    "fullname": "puki puki"
+                }
+            }
+        ]
+    }
+]
